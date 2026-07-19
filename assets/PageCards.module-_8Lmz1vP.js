@@ -1,1 +1,0 @@
-var e={stack:`_stack_rktez_1`,hero:`_hero_rktez_3`,placeholder:`_placeholder_rktez_9`};export{e as t};
