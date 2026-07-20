@@ -1,0 +1,1 @@
+:root{color:var(--app-color-text,#1f2937);background:var(--app-color-canvas,#f3f6f9);font-synthesis:none;text-rendering:optimizelegibility;font-family:Microsoft YaHei,PingFang SC,sans-serif}*{box-sizing:border-box}html,body,#root{min-width:320px;min-height:100%;margin:0}body{background:var(--app-color-canvas,#f3f6f9)}button,input,textarea,select{font:inherit}
