@@ -1,4 +1,12 @@
 {
+  "_ApartmentOutlined-N6Sz3WuC.js": {
+    "file": "assets/ApartmentOutlined-N6Sz3WuC.js",
+    "name": "ApartmentOutlined",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js"
+    ]
+  },
   "_ArrowRightOutlined-CyBUxRmM.js": {
     "file": "assets/ArrowRightOutlined-CyBUxRmM.js",
     "name": "ArrowRightOutlined",
@@ -31,8 +39,41 @@
       "_jsx-runtime-BoMEIC_r.js"
     ]
   },
-  "_EllipsisOutlined-CPrZY2DL.js": {
-    "file": "assets/EllipsisOutlined-CPrZY2DL.js",
+  "_ConfiguredProjectProcessView-DOvKlL4T.css": {
+    "file": "assets/ConfiguredProjectProcessView-DOvKlL4T.css",
+    "src": "_ConfiguredProjectProcessView-DOvKlL4T.css"
+  },
+  "_ConfiguredProjectProcessView-DP_573qa.js": {
+    "file": "assets/ConfiguredProjectProcessView-DP_573qa.js",
+    "name": "ConfiguredProjectProcessView",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_typography-CxyC7wl_.js",
+      "_forms-6fj41BNs.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
+      "_card-BwndtLwB.js",
+      "_space-Bja3_rs_.js",
+      "_input-DllAzJir.js",
+      "_lists-D5_CN5Cj.js",
+      "index.html",
+      "_workflow-CIZOrxLh.js",
+      "_repositoriesContext-D0ol7hj8.js",
+      "_projectProcessForms-CVcS2kvY.js",
+      "_projectRegistrationFields-CXzq5y2J.js",
+      "_feedback-G5__-vsP.js",
+      "_projectIndicatorFieldPresentation-DJwm9hlf.js",
+      "_processStatus-BYHBjnCK.js",
+      "_auditPresentation-Bqu3ED6I.js"
+    ],
+    "css": [
+      "assets/ConfiguredProjectProcessView-DOvKlL4T.css"
+    ]
+  },
+  "_EllipsisOutlined-CC3mKxR5.js": {
+    "file": "assets/EllipsisOutlined-CC3mKxR5.js",
     "name": "EllipsisOutlined",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
@@ -69,8 +110,12 @@
       "_jsx-runtime-BoMEIC_r.js"
     ]
   },
-  "_PublicInvestmentComponents-BNUYWiTP.js": {
-    "file": "assets/PublicInvestmentComponents-BNUYWiTP.js",
+  "_PublicInvestmentComponents-BfOb_zXj.css": {
+    "file": "assets/PublicInvestmentComponents-BfOb_zXj.css",
+    "src": "_PublicInvestmentComponents-BfOb_zXj.css"
+  },
+  "_PublicInvestmentComponents-NCdijs08.js": {
+    "file": "assets/PublicInvestmentComponents-NCdijs08.js",
     "name": "PublicInvestmentComponents",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
@@ -82,22 +127,17 @@
       "_skeleton-C63v0txl.js",
       "_fallbackProp-CqPvIqVj.js",
       "_TextArea-DtXG4RPC.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
-      "_dropdown-BAq8JASI.js",
+      "_EllipsisOutlined-CC3mKxR5.js",
+      "_dropdown-DTXpMvD9.js",
       "_statusUtils-BuOrt86k.js",
       "_empty-B5ViD3V2.js",
       "_Input-mF94iO82.js",
-      "_card-KNzcMlOg.js",
-      "_spin-D7N0MS7V.js",
-      "_space-Bja3_rs_.js"
+      "_card-BwndtLwB.js",
+      "_spin-D7N0MS7V.js"
     ],
     "css": [
-      "assets/PublicInvestmentComponents-CJE5Onju.css"
+      "assets/PublicInvestmentComponents-BfOb_zXj.css"
     ]
-  },
-  "_PublicInvestmentComponents-CJE5Onju.css": {
-    "file": "assets/PublicInvestmentComponents-CJE5Onju.css",
-    "src": "_PublicInvestmentComponents-CJE5Onju.css"
   },
   "_RouteStatusPage-Cnj9Mkqz.js": {
     "file": "assets/RouteStatusPage-Cnj9Mkqz.js",
@@ -119,49 +159,9 @@
       "_statusUtils-BuOrt86k.js"
     ]
   },
-  "_app-D6ZvH0uP.js": {
-    "file": "assets/app-D6ZvH0uP.js",
-    "name": "app",
-    "imports": [
-      "_rolldown-runtime-Bh1tDfsg.js",
-      "_jsx-runtime-BoMEIC_r.js",
-      "_useClosable-CjRkM0NS.js",
-      "_button-D6OIL0Di.js",
-      "_skeleton-C63v0txl.js",
-      "_fallbackProp-CqPvIqVj.js",
-      "_style-2hvUp8nw.js"
-    ]
-  },
-  "_auditPresentation-BxiuhyqM.css": {
-    "file": "assets/auditPresentation-BxiuhyqM.css",
-    "src": "_auditPresentation-BxiuhyqM.css"
-  },
-  "_auditPresentation-CC3mFHuh.js": {
-    "file": "assets/auditPresentation-CC3mFHuh.js",
-    "name": "auditPresentation",
-    "imports": [
-      "_rolldown-runtime-Bh1tDfsg.js",
-      "_jsx-runtime-BoMEIC_r.js",
-      "_typography-CxyC7wl_.js",
-      "_tooltip-M4yIzfHe.js",
-      "_button-D6OIL0Di.js",
-      "_skeleton-C63v0txl.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
-      "_dropdown-BAq8JASI.js",
-      "_empty-B5ViD3V2.js",
-      "_card-KNzcMlOg.js",
-      "_ClockCircleOutlined-BDdvO4FW.js",
-      "_input-DllAzJir.js",
-      "_forms-B1g-cUkW.js",
-      "_projectProgress-DgXrHu5t.js",
-      "_ArrowRightOutlined-CyBUxRmM.js",
-      "_CheckCircleOutlined-B-mW4I0p.js",
-      "_filePolicy-Dt6tJ22w.js"
-    ],
-    "css": [
-      "assets/auditPresentation-BxiuhyqM.css"
-    ]
+  "_auditPresentation-Bqu3ED6I.js": {
+    "file": "assets/auditPresentation-Bqu3ED6I.js",
+    "name": "auditPresentation"
   },
   "_authStore-3k_tsA_L.js": {
     "file": "assets/authStore-3k_tsA_L.js",
@@ -179,8 +179,8 @@
       "_jsx-runtime-BoMEIC_r.js"
     ]
   },
-  "_card-KNzcMlOg.js": {
-    "file": "assets/card-KNzcMlOg.js",
+  "_card-BwndtLwB.js": {
+    "file": "assets/card-BwndtLwB.js",
     "name": "card",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
@@ -188,7 +188,7 @@
       "_tooltip-M4yIzfHe.js",
       "_skeleton-C63v0txl.js",
       "_TextArea-DtXG4RPC.js",
-      "_EllipsisOutlined-CPrZY2DL.js"
+      "_EllipsisOutlined-CC3mKxR5.js"
     ]
   },
   "_chunk-KS7C4IRE-D2_kO6KV.js": {
@@ -199,30 +199,50 @@
       "_jsx-runtime-BoMEIC_r.js"
     ]
   },
-  "_config-gArdDIvb.js": {
-    "file": "assets/config-gArdDIvb.js",
+  "_config-Dj1jb_T8.js": {
+    "file": "assets/config-Dj1jb_T8.js",
     "name": "config",
     "imports": [
       "_processStatus-BYHBjnCK.js"
     ]
   },
-  "_date-picker-yddYbjcZ.js": {
-    "file": "assets/date-picker-yddYbjcZ.js",
+  "_date-picker-DOO5Ti5n.js": {
+    "file": "assets/date-picker-DOO5Ti5n.js",
     "name": "date-picker",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_tooltip-M4yIzfHe.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_fallbackProp-CqPvIqVj.js",
       "_TextArea-DtXG4RPC.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
-      "_dropdown-BAq8JASI.js",
+      "_EllipsisOutlined-CC3mKxR5.js",
+      "_dropdown-DTXpMvD9.js",
       "_statusUtils-BuOrt86k.js",
       "_CalendarOutlined-D1o-8PFa.js",
       "_ClockCircleOutlined-BDdvO4FW.js"
     ]
+  },
+  "_details-CDsxOuXF.js": {
+    "file": "assets/details-CDsxOuXF.js",
+    "name": "details",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_typography-CxyC7wl_.js",
+      "_forms-6fj41BNs.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_card-BwndtLwB.js"
+    ],
+    "css": [
+      "assets/details-dexFhxhA.css"
+    ]
+  },
+  "_details-dexFhxhA.css": {
+    "file": "assets/details-dexFhxhA.css",
+    "src": "_details-dexFhxhA.css"
   },
   "_deyang-development-logo-BnXaX8N4.js": {
     "file": "assets/deyang-development-logo-BnXaX8N4.js",
@@ -235,15 +255,15 @@
       "assets/deyang-development-logo-CQ4EGTXC.png"
     ]
   },
-  "_dropdown-BAq8JASI.js": {
-    "file": "assets/dropdown-BAq8JASI.js",
+  "_dropdown-DTXpMvD9.js": {
+    "file": "assets/dropdown-DTXpMvD9.js",
     "name": "dropdown",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_tooltip-M4yIzfHe.js",
       "_button-D6OIL0Di.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
+      "_EllipsisOutlined-CC3mKxR5.js",
       "_space-Bja3_rs_.js"
     ]
   },
@@ -264,46 +284,49 @@
       "_jsx-runtime-BoMEIC_r.js"
     ]
   },
-  "_feedback-BmOUBN-6.js": {
-    "file": "assets/feedback-BmOUBN-6.js",
+  "_feedback-G5__-vsP.js": {
+    "file": "assets/feedback-G5__-vsP.js",
     "name": "feedback",
     "imports": [
-      "_PublicInvestmentComponents-BNUYWiTP.js"
+      "_PublicInvestmentComponents-NCdijs08.js"
     ]
   },
   "_filePolicy-Dt6tJ22w.js": {
     "file": "assets/filePolicy-Dt6tJ22w.js",
     "name": "filePolicy"
   },
-  "_forms-B1g-cUkW.js": {
-    "file": "assets/forms-B1g-cUkW.js",
+  "_forms-531fxdBB.css": {
+    "file": "assets/forms-531fxdBB.css",
+    "src": "_forms-531fxdBB.css"
+  },
+  "_forms-6fj41BNs.js": {
+    "file": "assets/forms-6fj41BNs.js",
     "name": "forms",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_typography-CxyC7wl_.js",
       "_tooltip-M4yIzfHe.js",
-      "_switch-CTlGdu6C.js",
       "_button-D6OIL0Di.js",
       "_skeleton-C63v0txl.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_fallbackProp-CqPvIqVj.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
-      "_dropdown-BAq8JASI.js",
+      "_TextArea-DtXG4RPC.js",
+      "_EllipsisOutlined-CC3mKxR5.js",
+      "_dropdown-DTXpMvD9.js",
+      "_statusUtils-BuOrt86k.js",
       "_Input-mF94iO82.js",
-      "_date-picker-yddYbjcZ.js",
-      "_card-KNzcMlOg.js",
+      "_date-picker-DOO5Ti5n.js",
+      "_card-BwndtLwB.js",
+      "_row-66Loe0UW.js",
       "_space-Bja3_rs_.js",
       "_input-DllAzJir.js",
+      "_modal-DFmrpuIC.js",
       "_filePolicy-Dt6tJ22w.js"
     ],
     "css": [
-      "assets/forms-CaQA5p8A.css"
+      "assets/forms-531fxdBB.css"
     ]
-  },
-  "_forms-CaQA5p8A.css": {
-    "file": "assets/forms-CaQA5p8A.css",
-    "src": "_forms-CaQA5p8A.css"
   },
   "_input-DllAzJir.js": {
     "file": "assets/input-DllAzJir.js",
@@ -326,12 +349,8 @@
       "_rolldown-runtime-Bh1tDfsg.js"
     ]
   },
-  "_lists-CDC68krl.css": {
-    "file": "assets/lists-CDC68krl.css",
-    "src": "_lists-CDC68krl.css"
-  },
-  "_lists-DHEijkzj.js": {
-    "file": "assets/lists-DHEijkzj.js",
+  "_lists-D5_CN5Cj.js": {
+    "file": "assets/lists-D5_CN5Cj.js",
     "name": "lists",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
@@ -340,41 +359,89 @@
       "_typography-CxyC7wl_.js",
       "_tooltip-M4yIzfHe.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_fallbackProp-CqPvIqVj.js",
-      "_app-D6ZvH0uP.js",
-      "_dropdown-BAq8JASI.js",
-      "_space-Bja3_rs_.js"
+      "_useModal-D7Y1hL0v.js",
+      "_dropdown-DTXpMvD9.js",
+      "_card-BwndtLwB.js",
+      "_space-Bja3_rs_.js",
+      "_modal-DFmrpuIC.js",
+      "index.html"
     ],
     "css": [
-      "assets/lists-CDC68krl.css"
+      "assets/lists-Dm-YVjYQ.css"
+    ]
+  },
+  "_lists-Dm-YVjYQ.css": {
+    "file": "assets/lists-Dm-YVjYQ.css",
+    "src": "_lists-Dm-YVjYQ.css"
+  },
+  "_materials-1kU5u1uP.css": {
+    "file": "assets/materials-1kU5u1uP.css",
+    "src": "_materials-1kU5u1uP.css"
+  },
+  "_materials-Cu38D0uB.js": {
+    "file": "assets/materials-Cu38D0uB.js",
+    "name": "materials",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_typography-CxyC7wl_.js",
+      "_tooltip-M4yIzfHe.js",
+      "_forms-6fj41BNs.js",
+      "_button-D6OIL0Di.js",
+      "_skeleton-C63v0txl.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_EllipsisOutlined-CC3mKxR5.js",
+      "_dropdown-DTXpMvD9.js",
+      "_empty-B5ViD3V2.js",
+      "_card-BwndtLwB.js",
+      "_input-DllAzJir.js",
+      "_filePolicy-Dt6tJ22w.js"
+    ],
+    "css": [
+      "assets/materials-1kU5u1uP.css"
+    ]
+  },
+  "_modal-DFmrpuIC.js": {
+    "file": "assets/modal-DFmrpuIC.js",
+    "name": "modal",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_useModal-D7Y1hL0v.js",
+      "_dropdown-DTXpMvD9.js"
+    ]
+  },
+  "_navigation-mIPYk3XI.js": {
+    "file": "assets/navigation-mIPYk3XI.js",
+    "name": "navigation",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_chunk-KS7C4IRE-D2_kO6KV.js"
     ]
   },
   "_processStatus-BYHBjnCK.js": {
     "file": "assets/processStatus-BYHBjnCK.js",
     "name": "processStatus"
   },
-  "_projectIndicatorFieldPresentation-B6BG99f8.js": {
-    "file": "assets/projectIndicatorFieldPresentation-B6BG99f8.js",
+  "_projectIndicatorFieldPresentation-DJwm9hlf.js": {
+    "file": "assets/projectIndicatorFieldPresentation-DJwm9hlf.js",
     "name": "projectIndicatorFieldPresentation",
     "imports": [
       "_jsx-runtime-BoMEIC_r.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_space-Bja3_rs_.js"
     ]
   },
-  "_projectProcessForms-CalixLa1.js": {
-    "file": "assets/projectProcessForms-CalixLa1.js",
+  "_projectProcessForms-CVcS2kvY.js": {
+    "file": "assets/projectProcessForms-CVcS2kvY.js",
     "name": "projectProcessForms"
   },
-  "_projectProgress-DgXrHu5t.js": {
-    "file": "assets/projectProgress-DgXrHu5t.js",
-    "name": "projectProgress",
-    "imports": [
-      "_rolldown-runtime-Bh1tDfsg.js",
-      "_jsx-runtime-BoMEIC_r.js",
-      "_chunk-KS7C4IRE-D2_kO6KV.js"
-    ]
+  "_projectProgress-DGtxQN6X.js": {
+    "file": "assets/projectProgress-DGtxQN6X.js",
+    "name": "projectProgress"
   },
   "_projectRegistrationFields-CXzq5y2J.js": {
     "file": "assets/projectRegistrationFields-CXzq5y2J.js",
@@ -395,14 +462,14 @@
       "_jsx-runtime-BoMEIC_r.js"
     ]
   },
-  "_repository-BTnrEf7b.js": {
-    "file": "assets/repository-BTnrEf7b.js",
+  "_repository-CgQIrxOe.js": {
+    "file": "assets/repository-CgQIrxOe.js",
     "name": "repository",
     "imports": [
-      "_projectProgress-DgXrHu5t.js",
-      "_projectProcessForms-CalixLa1.js",
+      "_projectProcessForms-CVcS2kvY.js",
       "_projectWorkbenchRecords-ChJ9m8Nl.js",
       "_projectRegistrationFields-CXzq5y2J.js",
+      "_projectProgress-DGtxQN6X.js",
       "_filePolicy-Dt6tJ22w.js"
     ]
   },
@@ -414,13 +481,13 @@
     "file": "assets/routes-DkOipKpH.js",
     "name": "routes"
   },
-  "_row-D9qjNrGZ.js": {
-    "file": "assets/row-D9qjNrGZ.js",
+  "_row-66Loe0UW.js": {
+    "file": "assets/row-66Loe0UW.js",
     "name": "row",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
+      "_EllipsisOutlined-CC3mKxR5.js",
       "_style-2hvUp8nw.js"
     ]
   },
@@ -463,26 +530,6 @@
       "_jsx-runtime-BoMEIC_r.js"
     ]
   },
-  "_switch-CTlGdu6C.js": {
-    "file": "assets/switch-CTlGdu6C.js",
-    "name": "switch",
-    "imports": [
-      "_rolldown-runtime-Bh1tDfsg.js",
-      "_jsx-runtime-BoMEIC_r.js",
-      "_tooltip-M4yIzfHe.js",
-      "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_fallbackProp-CqPvIqVj.js",
-      "_app-D6ZvH0uP.js",
-      "_TextArea-DtXG4RPC.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
-      "_dropdown-BAq8JASI.js",
-      "_statusUtils-BuOrt86k.js",
-      "_card-KNzcMlOg.js",
-      "_row-D9qjNrGZ.js",
-      "_space-Bja3_rs_.js"
-    ]
-  },
   "_tooltip-M4yIzfHe.js": {
     "file": "assets/tooltip-M4yIzfHe.js",
     "name": "tooltip",
@@ -512,8 +559,45 @@
       "_fallbackProp-CqPvIqVj.js"
     ]
   },
+  "_useModal-D7Y1hL0v.js": {
+    "file": "assets/useModal-D7Y1hL0v.js",
+    "name": "useModal",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_useClosable-CjRkM0NS.js",
+      "_button-D6OIL0Di.js",
+      "_skeleton-C63v0txl.js",
+      "_fallbackProp-CqPvIqVj.js",
+      "_style-2hvUp8nw.js"
+    ]
+  },
+  "_workflow-BbAaD9Mx.css": {
+    "file": "assets/workflow-BbAaD9Mx.css",
+    "src": "_workflow-BbAaD9Mx.css"
+  },
+  "_workflow-CIZOrxLh.js": {
+    "file": "assets/workflow-CIZOrxLh.js",
+    "name": "workflow",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_typography-CxyC7wl_.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
+      "_card-BwndtLwB.js",
+      "_ClockCircleOutlined-BDdvO4FW.js",
+      "_ApartmentOutlined-N6Sz3WuC.js",
+      "_ArrowRightOutlined-CyBUxRmM.js",
+      "_CheckCircleOutlined-B-mW4I0p.js"
+    ],
+    "css": [
+      "assets/workflow-BbAaD9Mx.css"
+    ]
+  },
   "index.html": {
-    "file": "assets/index-CnkkLMaI.js",
+    "file": "assets/index-gWaPlSzz.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -521,8 +605,10 @@
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
+      "_useClosable-CjRkM0NS.js",
       "_button-D6OIL0Di.js",
-      "_app-D6ZvH0uP.js",
+      "_skeleton-C63v0txl.js",
+      "_useModal-D7Y1hL0v.js",
       "_spin-D7N0MS7V.js",
       "_RouteStatusPage-Cnj9Mkqz.js",
       "_authStore-3k_tsA_L.js"
@@ -543,7 +629,7 @@
     "src": "src/app/assets/deyang-development-logo.png"
   },
   "src/app/pages/HomePage.tsx": {
-    "file": "assets/HomePage-DW0kniu1.js",
+    "file": "assets/HomePage-DkVbnmP5.js",
     "name": "HomePage",
     "src": "src/app/pages/HomePage.tsx",
     "isDynamicEntry": true,
@@ -552,8 +638,8 @@
       "_jsx-runtime-BoMEIC_r.js",
       "_typography-CxyC7wl_.js",
       "_skeleton-C63v0txl.js",
-      "_card-KNzcMlOg.js",
-      "_row-D9qjNrGZ.js",
+      "_card-BwndtLwB.js",
+      "_row-66Loe0UW.js",
       "_ClockCircleOutlined-BDdvO4FW.js",
       "_CheckCircleOutlined-B-mW4I0p.js",
       "_ProjectOutlined-YVzSX5kS.js",
@@ -561,7 +647,7 @@
     ]
   },
   "src/app/pages/LoginPage.tsx": {
-    "file": "assets/LoginPage-CPqdxrxX.js",
+    "file": "assets/LoginPage-BAv0owbI.js",
     "name": "LoginPage",
     "src": "src/app/pages/LoginPage.tsx",
     "isDynamicEntry": true,
@@ -570,9 +656,9 @@
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
       "_button-D6OIL0Di.js",
-      "_app-D6ZvH0uP.js",
       "_input-DllAzJir.js",
       "_authStore-3k_tsA_L.js",
+      "index.html",
       "_ArrowRightOutlined-CyBUxRmM.js",
       "_deyang-development-logo-BnXaX8N4.js"
     ],
@@ -593,7 +679,7 @@
     ]
   },
   "src/app/router/AuthenticatedApplication.tsx": {
-    "file": "assets/AuthenticatedApplication-C3_LWtef.js",
+    "file": "assets/AuthenticatedApplication-CbqFX3ig.js",
     "name": "AuthenticatedApplication",
     "src": "src/app/router/AuthenticatedApplication.tsx",
     "isDynamicEntry": true,
@@ -602,17 +688,18 @@
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
       "_button-D6OIL0Di.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
-      "_dropdown-BAq8JASI.js",
+      "_EllipsisOutlined-CC3mKxR5.js",
+      "_dropdown-DTXpMvD9.js",
       "_space-Bja3_rs_.js",
       "_CalendarOutlined-D1o-8PFa.js",
       "_RouteStatusPage-Cnj9Mkqz.js",
       "_authStore-3k_tsA_L.js",
-      "_projectProgress-DgXrHu5t.js",
+      "_ApartmentOutlined-N6Sz3WuC.js",
       "_ProjectOutlined-YVzSX5kS.js",
       "_deyang-development-logo-BnXaX8N4.js",
+      "_navigation-mIPYk3XI.js",
       "_repositoriesContext-D0ol7hj8.js",
-      "_repository-BTnrEf7b.js",
+      "_repository-CgQIrxOe.js",
       "_routes-DkOipKpH.js"
     ],
     "dynamicImports": [
@@ -624,18 +711,87 @@
       "src/modules/deyang/pages/ProjectProgressPage.tsx",
       "src/modules/deyang/pages/ProjectProcessRoutePage.tsx",
       "src/modules/deyang/pages/ProjectRecordRoutePage.tsx",
+      "src/modules/deyang/pages/AnnualPlanBatchPage.tsx",
+      "src/modules/deyang/pages/ProjectLibraryPage.tsx",
       "src/modules/deyang/pages/GlobalInvestmentLedgerPage.tsx",
       "src/modules/deyang/pages/GlobalProcessSummaryPage.tsx",
       "src/modules/deyang/pages/RegulatoryCapabilityLedgerPage.tsx",
+      "src/modules/deyang/prototypes/strategy-policy/StrategyPolicyPrototypePage.tsx",
+      "src/modules/deyang/pages/InvestmentMenuEntryPage.tsx",
       "src/app/pages/HomePage.tsx",
       "src/app/pages/PlaceholderPage.tsx"
     ],
     "css": [
-      "assets/AuthenticatedApplication-jcS5TnQq.css"
+      "assets/AuthenticatedApplication-VZMCtO-n.css"
+    ]
+  },
+  "src/modules/deyang/pages/AnnualPlanBatchPage.tsx": {
+    "file": "assets/AnnualPlanBatchPage-C6VHk3-V.js",
+    "name": "AnnualPlanBatchPage",
+    "src": "src/modules/deyang/pages/AnnualPlanBatchPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_chunk-KS7C4IRE-D2_kO6KV.js",
+      "_typography-CxyC7wl_.js",
+      "_forms-6fj41BNs.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
+      "_Input-mF94iO82.js",
+      "_card-BwndtLwB.js",
+      "_space-Bja3_rs_.js",
+      "_input-DllAzJir.js",
+      "_lists-D5_CN5Cj.js",
+      "index.html",
+      "_workflow-CIZOrxLh.js",
+      "_repositoriesContext-D0ol7hj8.js",
+      "_projectWorkbenchRecords-ChJ9m8Nl.js",
+      "_projectRegistrationFields-CXzq5y2J.js",
+      "_routes-DkOipKpH.js",
+      "_feedback-G5__-vsP.js",
+      "_projectIndicatorFieldPresentation-DJwm9hlf.js"
+    ]
+  },
+  "src/modules/deyang/pages/FifteenthFivePlanDetail.tsx": {
+    "file": "assets/FifteenthFivePlanDetail-D9_yCRlI.js",
+    "name": "FifteenthFivePlanDetail",
+    "src": "src/modules/deyang/pages/FifteenthFivePlanDetail.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_jsx-runtime-BoMEIC_r.js",
+      "_typography-CxyC7wl_.js",
+      "_forms-6fj41BNs.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
+      "_space-Bja3_rs_.js",
+      "_lists-D5_CN5Cj.js",
+      "_details-CDsxOuXF.js"
+    ]
+  },
+  "src/modules/deyang/pages/FifteenthFivePlanFormPage.tsx": {
+    "file": "assets/FifteenthFivePlanFormPage-BQWV1C6E.js",
+    "name": "FifteenthFivePlanFormPage",
+    "src": "src/modules/deyang/pages/FifteenthFivePlanFormPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_typography-CxyC7wl_.js",
+      "_forms-6fj41BNs.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_space-Bja3_rs_.js",
+      "_lists-D5_CN5Cj.js",
+      "_navigation-mIPYk3XI.js"
+    ],
+    "css": [
+      "assets/FifteenthFivePlanFormPage-DQTcCX9P.css"
     ]
   },
   "src/modules/deyang/pages/GlobalInvestmentLedgerPage.tsx": {
-    "file": "assets/GlobalInvestmentLedgerPage-C_xmSJhN.js",
+    "file": "assets/GlobalInvestmentLedgerPage-DllXk3AR.js",
     "name": "GlobalInvestmentLedgerPage",
     "src": "src/modules/deyang/pages/GlobalInvestmentLedgerPage.tsx",
     "isDynamicEntry": true,
@@ -645,20 +801,20 @@
       "_chunk-KS7C4IRE-D2_kO6KV.js",
       "_typography-CxyC7wl_.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_card-KNzcMlOg.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_card-BwndtLwB.js",
       "_space-Bja3_rs_.js",
       "_input-DllAzJir.js",
-      "_lists-DHEijkzj.js",
+      "_lists-D5_CN5Cj.js",
       "_repositoriesContext-D0ol7hj8.js",
       "_projectWorkbenchRecords-ChJ9m8Nl.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js",
+      "_feedback-G5__-vsP.js",
       "_processStatus-BYHBjnCK.js"
     ]
   },
   "src/modules/deyang/pages/GlobalProcessSummaryPage.tsx": {
-    "file": "assets/GlobalProcessSummaryPage-LOLf4AcA.js",
+    "file": "assets/GlobalProcessSummaryPage-CeI6c04F.js",
     "name": "GlobalProcessSummaryPage",
     "src": "src/modules/deyang/pages/GlobalProcessSummaryPage.tsx",
     "isDynamicEntry": true,
@@ -666,18 +822,72 @@
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_input-DllAzJir.js",
-      "_lists-DHEijkzj.js",
+      "_lists-D5_CN5Cj.js",
       "_repositoriesContext-D0ol7hj8.js",
-      "_projectProcessForms-CalixLa1.js",
+      "_projectProcessForms-CVcS2kvY.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js",
+      "_feedback-G5__-vsP.js",
       "_processStatus-BYHBjnCK.js"
     ]
   },
+  "src/modules/deyang/pages/InvestmentMenuEntryPage.tsx": {
+    "file": "assets/InvestmentMenuEntryPage-CgP9463S.js",
+    "name": "InvestmentMenuEntryPage",
+    "src": "src/modules/deyang/pages/InvestmentMenuEntryPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_chunk-KS7C4IRE-D2_kO6KV.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_card-BwndtLwB.js",
+      "_space-Bja3_rs_.js",
+      "_input-DllAzJir.js",
+      "_lists-D5_CN5Cj.js",
+      "_repositoriesContext-D0ol7hj8.js",
+      "_routes-DkOipKpH.js",
+      "_feedback-G5__-vsP.js",
+      "_details-CDsxOuXF.js",
+      "_processStatus-BYHBjnCK.js",
+      "_config-Dj1jb_T8.js"
+    ]
+  },
+  "src/modules/deyang/pages/MainBusinessDetailDialog.tsx": {
+    "file": "assets/MainBusinessDetailDialog-t_XO572S.js",
+    "name": "MainBusinessDetailDialog",
+    "src": "src/modules/deyang/pages/MainBusinessDetailDialog.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_jsx-runtime-BoMEIC_r.js",
+      "_typography-CxyC7wl_.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_space-Bja3_rs_.js",
+      "_lists-D5_CN5Cj.js",
+      "_details-CDsxOuXF.js"
+    ]
+  },
+  "src/modules/deyang/pages/MainBusinessEditorDialog.tsx": {
+    "file": "assets/MainBusinessEditorDialog-abqk-h9p.js",
+    "name": "MainBusinessEditorDialog",
+    "src": "src/modules/deyang/pages/MainBusinessEditorDialog.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_typography-CxyC7wl_.js",
+      "_forms-6fj41BNs.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_space-Bja3_rs_.js",
+      "_lists-D5_CN5Cj.js",
+      "_navigation-mIPYk3XI.js"
+    ]
+  },
   "src/modules/deyang/pages/ProjectDetailPage.tsx": {
-    "file": "assets/ProjectDetailPage-C6QTVtaj.js",
+    "file": "assets/ProjectDetailPage-DX-WdA7L.js",
     "name": "ProjectDetailPage",
     "src": "src/modules/deyang/pages/ProjectDetailPage.tsx",
     "isDynamicEntry": true,
@@ -686,16 +896,45 @@
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_space-Bja3_rs_.js",
       "_repositoriesContext-D0ol7hj8.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js",
-      "_config-gArdDIvb.js"
+      "_feedback-G5__-vsP.js",
+      "_details-CDsxOuXF.js",
+      "_config-Dj1jb_T8.js"
+    ]
+  },
+  "src/modules/deyang/pages/ProjectLibraryPage.tsx": {
+    "file": "assets/ProjectLibraryPage-4quty8Uw.js",
+    "name": "ProjectLibraryPage",
+    "src": "src/modules/deyang/pages/ProjectLibraryPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_chunk-KS7C4IRE-D2_kO6KV.js",
+      "_typography-CxyC7wl_.js",
+      "_forms-6fj41BNs.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
+      "_card-BwndtLwB.js",
+      "_space-Bja3_rs_.js",
+      "_input-DllAzJir.js",
+      "_lists-D5_CN5Cj.js",
+      "index.html",
+      "_navigation-mIPYk3XI.js",
+      "_repositoriesContext-D0ol7hj8.js",
+      "_projectProcessForms-CVcS2kvY.js",
+      "_routes-DkOipKpH.js",
+      "_feedback-G5__-vsP.js",
+      "_config-Dj1jb_T8.js",
+      "_ConfiguredProjectProcessView-DP_573qa.js"
     ]
   },
   "src/modules/deyang/pages/ProjectListPage.tsx": {
-    "file": "assets/ProjectListPage-VIZq_-UI.js",
+    "file": "assets/ProjectListPage-D6iWf7nw.js",
     "name": "ProjectListPage",
     "src": "src/modules/deyang/pages/ProjectListPage.tsx",
     "isDynamicEntry": true,
@@ -704,36 +943,36 @@
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_date-picker-yddYbjcZ.js",
-      "_card-KNzcMlOg.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_date-picker-DOO5Ti5n.js",
+      "_card-BwndtLwB.js",
       "_space-Bja3_rs_.js",
       "_input-DllAzJir.js",
-      "_lists-DHEijkzj.js",
+      "_lists-D5_CN5Cj.js",
       "_repositoriesContext-D0ol7hj8.js",
       "_projectRegistrationFields-CXzq5y2J.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js",
+      "_feedback-G5__-vsP.js",
       "_processStatus-BYHBjnCK.js",
-      "_config-gArdDIvb.js"
+      "_config-Dj1jb_T8.js"
     ]
   },
   "src/modules/deyang/pages/ProjectProcessRoutePage.tsx": {
-    "file": "assets/ProjectProcessRoutePage-Ddtdu3Kg.js",
+    "file": "assets/ProjectProcessRoutePage-4tMGhthS.js",
     "name": "ProjectProcessRoutePage",
     "src": "src/modules/deyang/pages/ProjectProcessRoutePage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_projectProcessForms-CalixLa1.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_projectProcessForms-CVcS2kvY.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js"
+      "_feedback-G5__-vsP.js"
     ]
   },
   "src/modules/deyang/pages/ProjectProgressPage.tsx": {
-    "file": "assets/ProjectProgressPage-BpFpJ5dp.js",
+    "file": "assets/ProjectProgressPage-Pt7Nv_S9.js",
     "name": "ProjectProgressPage",
     "src": "src/modules/deyang/pages/ProjectProgressPage.tsx",
     "isDynamicEntry": true,
@@ -741,40 +980,43 @@
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
+      "_forms-6fj41BNs.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_app-D6ZvH0uP.js",
-      "_auditPresentation-CC3mFHuh.js",
-      "_date-picker-yddYbjcZ.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
+      "_date-picker-DOO5Ti5n.js",
       "_space-Bja3_rs_.js",
       "_input-DllAzJir.js",
-      "_lists-DHEijkzj.js",
-      "_forms-B1g-cUkW.js",
-      "_projectProgress-DgXrHu5t.js",
+      "_lists-D5_CN5Cj.js",
+      "index.html",
+      "_workflow-CIZOrxLh.js",
+      "_navigation-mIPYk3XI.js",
       "_projectRegistrationFields-CXzq5y2J.js",
+      "_projectProgress-DGtxQN6X.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js"
+      "_feedback-G5__-vsP.js",
+      "_auditPresentation-Bqu3ED6I.js"
     ],
     "css": [
       "assets/ProjectProgressPage-osw9t41g.css"
     ]
   },
   "src/modules/deyang/pages/ProjectRecordRoutePage.tsx": {
-    "file": "assets/ProjectRecordRoutePage-D3U4FMdj.js",
+    "file": "assets/ProjectRecordRoutePage-Duk-whlz.js",
     "name": "ProjectRecordRoutePage",
     "src": "src/modules/deyang/pages/ProjectRecordRoutePage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_projectWorkbenchRecords-ChJ9m8Nl.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js"
+      "_feedback-G5__-vsP.js"
     ]
   },
   "src/modules/deyang/pages/ProjectRegistrationFormPage.tsx": {
-    "file": "assets/ProjectRegistrationFormPage-CYLngANW.js",
+    "file": "assets/ProjectRegistrationFormPage-IAPKlFbu.js",
     "name": "ProjectRegistrationFormPage",
     "src": "src/modules/deyang/pages/ProjectRegistrationFormPage.tsx",
     "isDynamicEntry": true,
@@ -782,29 +1024,31 @@
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
+      "_forms-6fj41BNs.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_app-D6ZvH0uP.js",
-      "_auditPresentation-CC3mFHuh.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
       "_space-Bja3_rs_.js",
-      "_lists-DHEijkzj.js",
-      "_forms-B1g-cUkW.js",
-      "_projectProgress-DgXrHu5t.js",
+      "_lists-D5_CN5Cj.js",
+      "index.html",
+      "_workflow-CIZOrxLh.js",
+      "_navigation-mIPYk3XI.js",
       "_repositoriesContext-D0ol7hj8.js",
-      "_repository-BTnrEf7b.js",
+      "_repository-CgQIrxOe.js",
       "_projectWorkbenchRecords-ChJ9m8Nl.js",
       "_projectRegistrationFields-CXzq5y2J.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js",
+      "_feedback-G5__-vsP.js",
+      "_projectIndicatorFieldPresentation-DJwm9hlf.js",
       "_processStatus-BYHBjnCK.js",
-      "_projectIndicatorFieldPresentation-B6BG99f8.js"
+      "_auditPresentation-Bqu3ED6I.js"
     ],
     "css": [
       "assets/ProjectRegistrationFormPage-Dpt1LxtK.css"
     ]
   },
   "src/modules/deyang/pages/ProjectRegistrationRecordsPage.tsx": {
-    "file": "assets/ProjectRegistrationRecordsPage-Cd25JMMT.js",
+    "file": "assets/ProjectRegistrationRecordsPage-DfVRH4K6.js",
     "name": "ProjectRegistrationRecordsPage",
     "src": "src/modules/deyang/pages/ProjectRegistrationRecordsPage.tsx",
     "isDynamicEntry": true,
@@ -813,17 +1057,17 @@
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_input-DllAzJir.js",
-      "_lists-DHEijkzj.js",
+      "_lists-D5_CN5Cj.js",
       "_repositoriesContext-D0ol7hj8.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js",
+      "_feedback-G5__-vsP.js",
       "_processStatus-BYHBjnCK.js"
     ]
   },
   "src/modules/deyang/pages/ProjectRegulatoryVerificationView.tsx": {
-    "file": "assets/ProjectRegulatoryVerificationView-DD-vYUuH.js",
+    "file": "assets/ProjectRegulatoryVerificationView-BpRuzQBI.js",
     "name": "ProjectRegulatoryVerificationView",
     "src": "src/modules/deyang/pages/ProjectRegulatoryVerificationView.tsx",
     "isDynamicEntry": true,
@@ -831,18 +1075,18 @@
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_typography-CxyC7wl_.js",
+      "_forms-6fj41BNs.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_app-D6ZvH0uP.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
       "_space-Bja3_rs_.js",
-      "_forms-B1g-cUkW.js",
+      "index.html",
       "_repositoriesContext-D0ol7hj8.js",
-      "_feedback-BmOUBN-6.js",
-      "_projectIndicatorFieldPresentation-B6BG99f8.js"
+      "_feedback-G5__-vsP.js",
+      "_projectIndicatorFieldPresentation-DJwm9hlf.js"
     ]
   },
   "src/modules/deyang/pages/ProjectWorkbenchPage.tsx": {
-    "file": "assets/ProjectWorkbenchPage-BoOP80GS.js",
+    "file": "assets/ProjectWorkbenchPage-CaVFyBVH.js",
     "name": "ProjectWorkbenchPage",
     "src": "src/modules/deyang/pages/ProjectWorkbenchPage.tsx",
     "isDynamicEntry": true,
@@ -852,39 +1096,41 @@
       "_chunk-KS7C4IRE-D2_kO6KV.js",
       "_typography-CxyC7wl_.js",
       "_tooltip-M4yIzfHe.js",
-      "_switch-CTlGdu6C.js",
+      "_forms-6fj41BNs.js",
       "_button-D6OIL0Di.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_app-D6ZvH0uP.js",
-      "_auditPresentation-CC3mFHuh.js",
-      "_card-KNzcMlOg.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
+      "_card-BwndtLwB.js",
       "_space-Bja3_rs_.js",
       "_input-DllAzJir.js",
-      "_lists-DHEijkzj.js",
-      "_forms-B1g-cUkW.js",
-      "_projectProgress-DgXrHu5t.js",
+      "_lists-D5_CN5Cj.js",
+      "index.html",
+      "_workflow-CIZOrxLh.js",
+      "_navigation-mIPYk3XI.js",
       "_repositoriesContext-D0ol7hj8.js",
-      "_projectProcessForms-CalixLa1.js",
-      "_repository-BTnrEf7b.js",
+      "_projectProcessForms-CVcS2kvY.js",
+      "_repository-CgQIrxOe.js",
       "_projectWorkbenchRecords-ChJ9m8Nl.js",
       "_projectRegistrationFields-CXzq5y2J.js",
       "_routes-DkOipKpH.js",
-      "_feedback-BmOUBN-6.js",
+      "_feedback-G5__-vsP.js",
+      "_projectIndicatorFieldPresentation-DJwm9hlf.js",
       "_processStatus-BYHBjnCK.js",
-      "_config-gArdDIvb.js",
+      "_config-Dj1jb_T8.js",
+      "_ConfiguredProjectProcessView-DP_573qa.js",
+      "_auditPresentation-Bqu3ED6I.js",
       "src/modules/deyang/pages/ProjectProgressPage.tsx",
-      "_projectIndicatorFieldPresentation-B6BG99f8.js",
       "src/modules/deyang/pages/ProjectRegistrationFormPage.tsx"
     ],
     "dynamicImports": [
       "src/modules/deyang/pages/ProjectRegulatoryVerificationView.tsx"
     ],
     "css": [
-      "assets/ProjectWorkbenchPage-CGoDcmO0.css"
+      "assets/ProjectWorkbenchPage-DYxYxDHQ.css"
     ]
   },
   "src/modules/deyang/pages/RegulatoryCapabilityLedgerPage.tsx": {
-    "file": "assets/RegulatoryCapabilityLedgerPage-C06IZXvQ.js",
+    "file": "assets/RegulatoryCapabilityLedgerPage-BpfgiPQF.js",
     "name": "RegulatoryCapabilityLedgerPage",
     "src": "src/modules/deyang/pages/RegulatoryCapabilityLedgerPage.tsx",
     "isDynamicEntry": true,
@@ -892,19 +1138,50 @@
       "_rolldown-runtime-Bh1tDfsg.js",
       "_jsx-runtime-BoMEIC_r.js",
       "_chunk-KS7C4IRE-D2_kO6KV.js",
-      "_typography-CxyC7wl_.js",
-      "_tooltip-M4yIzfHe.js",
-      "_switch-CTlGdu6C.js",
       "_button-D6OIL0Di.js",
-      "_skeleton-C63v0txl.js",
-      "_PublicInvestmentComponents-BNUYWiTP.js",
-      "_app-D6ZvH0uP.js",
-      "_EllipsisOutlined-CPrZY2DL.js",
-      "_card-KNzcMlOg.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_card-BwndtLwB.js",
       "_space-Bja3_rs_.js",
       "_input-DllAzJir.js",
-      "_lists-DHEijkzj.js",
+      "_lists-D5_CN5Cj.js",
+      "index.html",
       "_repositoriesContext-D0ol7hj8.js"
+    ],
+    "dynamicImports": [
+      "src/modules/deyang/pages/FifteenthFivePlanFormPage.tsx",
+      "src/modules/deyang/pages/FifteenthFivePlanDetail.tsx",
+      "src/modules/deyang/pages/MainBusinessEditorDialog.tsx",
+      "src/modules/deyang/pages/MainBusinessDetailDialog.tsx"
     ]
+  },
+  "src/modules/deyang/prototypes/strategy-policy/StrategyPolicyPrototypePage.tsx": {
+    "file": "assets/StrategyPolicyPrototypePage-Xr2HMXNZ.js",
+    "name": "StrategyPolicyPrototypePage",
+    "src": "src/modules/deyang/prototypes/strategy-policy/StrategyPolicyPrototypePage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_jsx-runtime-BoMEIC_r.js",
+      "_chunk-KS7C4IRE-D2_kO6KV.js",
+      "_forms-6fj41BNs.js",
+      "_button-D6OIL0Di.js",
+      "_PublicInvestmentComponents-NCdijs08.js",
+      "_materials-Cu38D0uB.js",
+      "_card-BwndtLwB.js",
+      "_lists-D5_CN5Cj.js",
+      "_workflow-CIZOrxLh.js",
+      "_feedback-G5__-vsP.js",
+      "_details-CDsxOuXF.js"
+    ],
+    "css": [
+      "assets/StrategyPolicyPrototypePage-CIC8j2Fc.css"
+    ],
+    "assets": [
+      "assets/strategy-policy.mock-CeARxCFn.json"
+    ]
+  },
+  "src/modules/deyang/prototypes/strategy-policy/strategy-policy.mock.json": {
+    "file": "assets/strategy-policy.mock-CeARxCFn.json",
+    "src": "src/modules/deyang/prototypes/strategy-policy/strategy-policy.mock.json"
   }
 }
