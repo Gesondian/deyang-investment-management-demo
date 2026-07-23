@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-EihBglwo.js";import{n as t}from"./PublicInvestmentComponents-BQv4GFMX.js";import"./feedback-DtzdNbwv.js";var n=e();function r(){return(0,n.jsx)(t,{testId:`investment-menu-unavailable`,description:`功能暂未开放`})}export{r as default};
