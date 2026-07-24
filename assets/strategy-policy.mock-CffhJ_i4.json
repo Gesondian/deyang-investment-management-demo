@@ -1,0 +1,106 @@
+{
+  "dashboard": {
+    "dataSource": "prototype-mock",
+    "copy": {
+      "a": "当前规划", "b": "规划、版本和审批状态分别展示", "c": "执行关注与数据质量", "d": "提示不自动推进项目状态",
+      "e": "规划编制与版本", "f": "统一查看规划主档、版本与审批状态", "g": "目标—举措—任务", "h": "从战略目标穿透到责任任务",
+      "i": "战略执行监测", "j": "指标完成度、状态、来源和更新时间同屏展示", "k": "关注提示不自动改变项目状态或审批状态",
+      "l": "近期政策", "m": "政策事实、研究与转化状态分离", "n": "政策库", "o": "政策事实、效力状态和研究进度统一检索",
+      "p": "政策解读与影响分析", "q": "结论保留证据、机会与约束，不直接生成业务对象", "r": "重点专项分类入口", "s": "原有“十五五”路由保留并统一从此进入",
+      "t": "战略关联项目与机会", "u": "项目机会与正式项目保持独立对象", "v": "政策关联与转化", "w": "每条记录只允许一种转化类型和一个明确目标", "x": "转化记录与项目状态分离",
+      "y": "战略规划与政策研究中保真原型", "z": "当前为脱敏 Mock 数据；正式审批、生产权限、文件服务和外部接口尚未接入。"
+    },
+    "ui": {
+      "lists": {
+        "plan": ["strategy-plan-list", "规划、版本与审批状态分离；普通保存不改变审批状态。", [["规划编码", "code"], ["规划名称", "name", "link"], ["版本", "version"], ["规划状态", "businessStatus", "status"], ["版本状态", "versionStatus", "status"], ["审批状态", "approvalStatus", "status"], ["执行进度", "progress", "percent"]]],
+        "research": ["policy-research-list", "研究状态与政策效力独立；每条成果都可回溯来源政策和原文依据。", [["研究主题", "title", "link"], ["来源政策", "policyTitle"], ["研究责任人", "owner"], ["研判结论", "conclusion"], ["状态", "status", "status"], ["更新时间", "updatedAt"]]],
+        "overview": ["strategy-overview-list", "战略目标、任务与关联对象统一穿透。", [["规划编码", "code"], ["规划名称", "name", "planLink"], ["规划状态", "businessStatus", "status"], ["总体执行进度", "progress", "percent"]]],
+        "tasks": ["strategy-task-list", "目标、举措与责任任务。", [["战略目标", "goal"], ["重点举措", "initiative"], ["重点任务", "task"], ["责任单位", "ownerOrganization"], ["状态", "status", "status"]]],
+        "monitoring": ["strategy-monitoring-list", "指标来源与更新时间同屏。", [["监测指标", "name"], ["目标值", "targetValue"], ["当前值", "currentValue"], ["状态", "status", "status"], ["数据来源", "sourceSystem"], ["数据时间", "sourceUpdatedAt"]]],
+        "relations": ["strategy-project-link-list", "项目机会与正式项目保持独立。", [["类型", "relationType"], ["对象编码", "objectCode"], ["对象名称", "objectName"], ["关系状态", "relationStatus", "status"]]],
+        "policy": ["policy-library-list", "政策事实人工维护；研究与转化进展由真实记录汇总。", [["政策编号", "code"], ["政策标题", "title", "policyLink"], ["政策层级", "policyLevel"], ["发文机构", "issuer"], ["施行日期", "effectiveAt"], ["效力状态", "validityStatus", "status"], ["研究进展", "researchStatus", "status"], ["研究数", "researchCount"], ["成果数", "formedResultCount"], ["转化进展", "conversionStatus", "status"]]],
+        "conversion": ["policy-conversion-list", "人工确认是唯一写入门。", [["转化编号", "conversionCode"], ["来源政策", "policyTitle"], ["转化类型", "conversionType"], ["目标对象", "targetName"], ["状态", "status", "status"], ["操作", "id", "conversionLink"]]]
+      },
+      "forms": {
+        "plan": [["base", "规划基本信息", [["code", "规划编码", "text", true], ["name", "规划名称", "text", true], ["period", "规划周期", "text", true], ["ownerOrganization", "责任单位", "text", true]]], ["content", "规划内容", [["description", "规划说明", "textarea", true]]]],
+        "planDetail": [["overview", "规划概况", [["code", "规划编码"], ["period", "规划周期"], ["ownerOrganization", "责任单位"], ["description", "规划说明", "textarea"]]], ["tasks", "目标任务", [["goalSummary", "战略目标与重点任务", "textarea"]]], ["projects", "重点项目", [["projectSummary", "正式项目与项目机会关系", "textarea"]]], ["monitoring", "执行监测", [["indicatorSummary", "指标完成度、来源与数据时间", "textarea"]]], ["versions", "版本审计", [["versionSummary", "版本与生效记录", "textarea"]]]],
+        "policy": [["base", "政策基本信息", [["code", "政策编号", "text", true], ["title", "政策标题", "text", true], ["issuer", "发文机构", "text", true], ["policyLevel", "政策层级", "select", true, [["国家级", "国家级"], ["省级", "省级"], ["市级", "市级"], ["区县级", "区县级"]]], ["publishedAt", "发布日期", "date", true], ["effectiveAt", "施行日期", "date", true], ["validityStatus", "效力状态", "select", true, [["待生效", "待生效"], ["有效", "有效"], ["失效", "失效"], ["废止", "废止"], ["被替代", "被替代"]]]]], ["scope", "适用与来源", [["applicableScope", "适用范围", "textarea", true], ["sourceUrlLabel", "政策来源地址或原文说明", "text", true], ["tags", "政策标签", "text"]]], ["summary", "政策摘要", [["summary", "政策摘要", "textarea", true]]]],
+        "research": [["source", "来源与责任", [["policyId", "来源政策", "select", true, [["关于支持清洁能源产业高质量发展的若干措施", "policy-001"], ["关于进一步优化国有资本布局的指导意见", "policy-002"]]], ["title", "研究主题", "text", true], ["owner", "研究责任人", "text", true], ["recommendedDueDate", "建议完成时间", "date"]]], ["basis", "原文依据与适用分析", [["keyClauses", "关键条款及章节页码", "textarea"], ["evidence", "事实依据", "textarea"], ["applicableAnalysis", "适用对象与范围分析", "textarea"]]], ["impact", "影响分析", [["industryImpact", "产业方向影响", "textarea"], ["investmentBoundary", "投资边界影响", "textarea"], ["affectedObjects", "受影响战略、专项或项目", "textarea"]]], ["outcome", "研究成果", [["conclusion", "研究结论", "textarea", true], ["opportunities", "投资机会", "textarea"], ["constraints", "限制与合规要求", "textarea"], ["risks", "潜在风险", "textarea"], ["recommendations", "建议措施", "textarea"]]]],
+        "researchDetail": [["source", "来源与责任", [["sourcePolicy", "政策来源"], ["owner", "研究责任人"], ["recommendedDueDate", "建议完成时间"]]], ["basis", "原文依据与适用分析", [["keyClauses", "关键条款及章节页码", "textarea"], ["evidence", "事实依据", "textarea"], ["applicableAnalysis", "适用对象与范围分析", "textarea"]]], ["impact", "影响分析", [["industryImpact", "产业方向影响", "textarea"], ["investmentBoundary", "投资边界影响", "textarea"], ["affectedObjects", "受影响战略、专项或项目", "textarea"]]], ["outcome", "研究成果", [["conclusion", "研究结论", "textarea"], ["opportunities", "投资机会", "textarea"], ["constraints", "限制与合规要求", "textarea"], ["risks", "潜在风险", "textarea"], ["recommendations", "建议措施", "textarea"]]], ["conversion", "关联与转化", [["conversionBoundary", "转化边界", "textarea"]]], ["audit", "版本审计", [["audit", "操作与版本记录", "textarea"]]]],
+        "conversionCreate": [["source", "成果来源", [["policyTitle", "来源政策"], ["researchTitle", "研究成果"], ["sourceConclusion", "成果结论", "textarea"]]], ["target", "转化目标", [["conversionType", "转化类型", "select", true, [["项目机会", "项目机会"], ["规划任务", "规划任务"], ["战略关系", "战略关系"]]], ["targetName", "目标对象名称", "text", true], ["ownerOrganization", "责任单位", "text", true]]], ["opportunity", "项目机会信息", [["investmentDirection", "投资方向/类型", "text", true], ["ownerName", "负责人", "text", true], ["discoveredOn", "发现日期", "date", true]]]],
+        "conversion": [["source", "转化来源", [["policyTitle", "来源政策"], ["sourceConclusion", "成果结论", "textarea"]]], ["target", "目标与边界", [["conversionType", "转化类型"], ["targetName", "目标对象"], ["boundary", "影响边界", "textarea"]]]]
+      },
+      "workbenchForms": {
+        "goal": [["goal", "目标信息", [["code", "目标编码"], ["name", "目标名称", "text", true], ["ownerOrganization", "责任单位"], ["description", "目标说明", "textarea"]]]],
+        "initiative": [["initiative", "专项信息", [["goal", "所属目标", "select", true], ["name", "专项名称", "text", true], ["ownerOrganization", "责任单位"], ["description", "专项说明", "textarea"]]]],
+        "task": [["task", "任务定义", [["code", "任务编码"], ["goal", "战略目标", "select", true], ["initiative", "重点专项", "select", true], ["task", "任务名称", "text", true], ["ownerOrganization", "责任单位", "text", true], ["dueDate", "完成期限", "date"]]]],
+        "indicator": [["indicator", "指标定义", [["taskId", "关联战略任务", "select", true], ["name", "指标名称", "text", true], ["targetValue", "目标值", "text", true], ["updateMode", "更新方式", "select", true, [["责任单位填报", "责任单位填报"], ["系统投影", "系统投影"]]], ["sourceSystem", "数据来源", "text", true]]]],
+        "material": [["material", "材料登记", [["name", "材料名称", "text", true], ["category", "材料分类", "text", true], ["status", "材料状态", "select", true, [["草稿", "草稿"], ["已归档", "已归档"]]]]]],
+        "profile": [["basic", "规划基本信息", [["code", "规划编号"], ["name", "规划名称"], ["period", "规划周期"], ["ownerOrganization", "责任单位"], ["version", "当前版本"], ["businessStatus", "规划状态"]]], ["content", "规划内容与执行", [["description", "规划说明", "textarea"], ["progress", "执行进度", "number"], ["updatedAt", "最近更新"]]]],
+        "update": [["base", "更新对象", [["code", "规划编码"], ["name", "规划名称"], ["baseVersion", "原有效版本"], ["version", "本次更新版本"]]], ["change", "更新信息", [["updateReason", "更新原因", "textarea", true], ["updateBasis", "更新依据", "textarea", true]]]]
+      },
+      "workbenchColumns": {
+        "goal": [["目标编码", "code", 160], ["目标名称", "name", 220], ["责任单位", "ownerOrganization", 180], ["目标说明", "description", 300]],
+        "initiative": [["所属目标", "goal", 200], ["专项名称", "name", 240], ["专项类型", "initiativeType", 160], ["责任单位", "ownerOrganization", 180], ["专项说明", "description", 320]],
+        "task": [["任务编码", "code", 150], ["战略目标", "goal", 180], ["重点专项", "initiative", 190], ["任务名称", "task", 220], ["责任单位", "ownerOrganization", 180], ["指标数", "indicatorCount", 90], ["承接项目数", "relationCount", 110], ["进度来源", "progressSource", 150], ["状态", "status", 110, "status"], ["进度", "progress", 100, "percent"], ["完成期限", "dueDate", 130]],
+        "indicator": [["关联战略任务", "taskId", 240], ["指标名称", "name", 220], ["目标值", "targetValue", 130], ["当前值", "currentValue", 130], ["完成进度", "progress", 110, "percent"], ["状态", "status", 110, "status"], ["数据来源", "sourceSystem", 180], ["来源更新时间", "sourceUpdatedAt", 180]],
+        "material": [["材料名称", "name", 360], ["材料分类", "category", 240], ["状态", "status", 140, "status"]],
+        "update": [["更新申请", "updateSubject", 280], ["更新版本", "version", 130], ["更新状态", "status", 130, "status"], ["更新事项", "note", 320], ["生效日期", "effectiveAt", 160]]
+      },
+      "workflow": {
+        "plan": ["战略规划编制与发布流程", ["规划编制", "复核审批", "版本生效"]],
+        "research": ["政策研究成果形成流程", ["研究登记", "复核审批", "成果归档"]],
+        "conversion": ["政策成果人工转化流程", ["成果确认", "影响边界确认", "创建允许对象"]]
+      },
+      "text": { "cancel": "取消", "saveDraft": "保存草稿", "saveVersion": "保存版本", "edit": "编辑", "view": "查看", "process": "流程", "viewProcess": "查看流程", "newPlan": "新建规划", "newResearch": "新建研究", "searchPlan": "搜索规划", "searchResearch": "搜索政策研究", "submit": "提交审核", "adjust": "发起调整", "activate": "确认生效", "return": "退回修改", "withdraw": "撤回", "approvePending": "批准为待生效", "approveNow": "批准并立即生效", "startResearch": "开始研判", "submitResearch": "提交复核", "returnResearch": "退回研判", "approveResearch": "确认成果", "comment": "办理意见", "boundary": "状态边界", "dataIssue": "数据问题", "recent": "最近变更", "todo": "待办事项", "version": "当前版本" }
+    },
+    "strategy": { "activePlans": 2, "goals": 3, "tasks": 12, "attentionTasks": 2, "overallProgress": 63 },
+    "policy": { "activePolicies": 18, "researchInProgress": 5, "pendingConversions": 3, "convertedOpportunities": 4 },
+    "pendingWork": [
+      { "id": "pending-001", "type": "战略任务", "title": "清洁能源项目机会研判即将到期", "owner": "投资发展部", "dueDate": "2026-09-30" },
+      { "id": "pending-002", "type": "政策转化", "title": "清洁能源政策转化待确认", "owner": "战略规划部", "dueDate": "2026-07-25" }
+    ]
+  },
+  "tasks": [
+    { "id": "task-001", "dataSource": "prototype-mock", "code": "RW-2026-001", "goal": "提升产业投资质量", "initiative": "加快重点产业项目落地", "task": "完成清洁能源项目机会研判", "ownerOrganization": "投资发展部", "status": "关注", "progress": 68, "dueDate": "2026-09-30" },
+    { "id": "task-002", "dataSource": "prototype-mock", "code": "RW-2026-002", "goal": "提升产业投资质量", "initiative": "强化投后价值提升", "task": "建立重点企业投后协同清单", "ownerOrganization": "资本运营部", "status": "进行中", "progress": 54, "dueDate": "2026-10-31" }
+  ],
+  "indicators": [
+    { "id": "indicator-001", "dataSource": "prototype-mock", "taskId": "task-001", "name": "战略性新兴产业投资占比", "targetValue": "≥ 45%", "updateMode": "系统投影", "currentValue": "41.6%", "progress": 92, "status": "进行中", "sourceSystem": "投资项目库", "sourceUpdatedAt": "2026-07-18 10:30" },
+    { "id": "indicator-002", "dataSource": "prototype-mock", "taskId": "task-002", "name": "重点任务按期完成率", "targetValue": "≥ 90%", "updateMode": "责任单位填报", "currentValue": "83.0%", "progress": 83, "status": "关注", "sourceSystem": "责任单位人工填报", "sourceUpdatedAt": "2026-07-20 16:10" }
+  ],
+  "relations": [
+    { "id": "relation-001", "dataSource": "prototype-mock", "taskId": "task-001", "relationType": "正式项目", "objectId": "dy-2026-008", "objectCode": "DYTZ-2026-008", "objectName": "全生命周期示范投资项目", "relationStatus": "已关联" },
+    { "id": "relation-002", "dataSource": "prototype-mock", "taskId": "task-001", "relationType": "项目机会", "objectId": "opportunity-existing-001", "objectCode": "JH-2026-016", "objectName": "清洁能源产业协同机会", "relationStatus": "已关联" }
+  ],
+  "plans": [
+    {
+      "id": "strategy-plan-001", "dataSource": "prototype-mock", "code": "GH-2026-001", "name": "德阳发展集团“十五五”发展战略规划", "period": "2026—2030", "version": "V1.2", "ownerOrganization": "战略规划部", "businessStatus": "已发布", "versionStatus": "当前有效", "approvalStatus": "已通过", "progress": 63, "updatedAt": "2026-07-20 14:30", "description": "围绕产业投资、资本运营和城市综合服务，形成目标、任务、指标与关联项目的统一执行视图。", "goals": [{ "id": "goal-001", "dataSource": "prototype-mock", "code": "MB-2026-001", "name": "提升产业投资质量", "description": "提升战略性新兴产业投资质量和项目落地能力。", "ownerOrganization": "战略规划部" }, { "id": "goal-002", "dataSource": "prototype-mock", "code": "MB-2026-002", "name": "完善投资治理机制", "description": "完善投资决策、监督与评价机制。", "ownerOrganization": "战略规划部" }, { "id": "goal-003", "dataSource": "prototype-mock", "code": "MB-2026-003", "name": "强化国有资本运营能力", "description": "增强资本运营和价值创造能力。", "ownerOrganization": "资本运营部" }],
+      "initiatives": [{ "id": "initiative-001", "dataSource": "prototype-mock", "goal": "提升产业投资质量", "name": "加快重点产业项目落地", "description": "围绕清洁能源与智能制造形成项目承接清单。", "ownerOrganization": "投资发展部", "initiativeType": "general" }, { "id": "initiative-002", "dataSource": "prototype-mock", "goal": "提升产业投资质量", "name": "强化投后价值提升", "description": "形成重点企业投后协同机制。", "ownerOrganization": "资本运营部", "initiativeType": "general" }],
+      "tasks": [{ "id": "task-001", "dataSource": "prototype-mock", "code": "RW-2026-001", "goal": "提升产业投资质量", "initiative": "加快重点产业项目落地", "task": "完成清洁能源项目机会研判", "ownerOrganization": "投资发展部", "status": "关注", "progress": 68, "dueDate": "2026-09-30" }, { "id": "task-002", "dataSource": "prototype-mock", "code": "RW-2026-002", "goal": "提升产业投资质量", "initiative": "强化投后价值提升", "task": "建立重点企业投后协同清单", "ownerOrganization": "资本运营部", "status": "进行中", "progress": 54, "dueDate": "2026-10-31" }],
+      "indicators": [{ "id": "indicator-001", "dataSource": "prototype-mock", "taskId": "task-001", "name": "战略性新兴产业投资占比", "targetValue": "≥ 45%", "updateMode": "系统投影", "currentValue": "41.6%", "progress": 92, "status": "进行中", "sourceSystem": "投资项目库", "sourceUpdatedAt": "2026-07-18 10:30" }, { "id": "indicator-002", "dataSource": "prototype-mock", "taskId": "task-002", "name": "重点任务按期完成率", "targetValue": "≥ 90%", "updateMode": "责任单位填报", "currentValue": "83.0%", "progress": 83, "status": "关注", "sourceSystem": "责任单位人工填报", "sourceUpdatedAt": "2026-07-20 16:10" }],
+      "relations": [{ "id": "relation-001", "dataSource": "prototype-mock", "taskId": "task-001", "relationType": "正式项目", "objectId": "dy-2026-008", "objectCode": "DYTZ-2026-008", "objectName": "全生命周期示范投资项目", "relationStatus": "已关联" }],
+      "versions": [{ "version": "V1.2", "status": "当前有效", "effectiveAt": "2026-07-01", "note": "经批准后发布的当前执行版本" }, { "version": "V1.1", "status": "历史版本", "effectiveAt": "2026-03-01", "note": "补充重点专项关联规则" }],
+      "versionSnapshots": [],
+      "materials": [{ "id": "material-001", "dataSource": "prototype-mock", "name": "“十五五”发展战略规划（审定稿）", "category": "规划正文", "status": "已归档" }]
+    },
+    {
+      "id": "strategy-plan-002", "dataSource": "prototype-mock", "code": "GH-2026-002", "name": "科技创新专项规划", "period": "2026—2030", "version": "V0.9", "ownerOrganization": "科技创新部", "businessStatus": "编制中", "versionStatus": "草稿版本", "approvalStatus": "草稿", "progress": 36, "updatedAt": "2026-07-19 11:20", "description": "科技创新专项规划草稿。", "goals": [], "initiatives": [], "tasks": [], "indicators": [], "relations": [], "versions": [], "versionSnapshots": [], "materials": []
+    }
+  ],
+  "policies": [
+    {
+      "id": "policy-001", "dataSource": "prototype-mock", "code": "ZC-2026-018", "title": "关于支持清洁能源产业高质量发展的若干措施", "issuer": "省级主管部门", "policyLevel": "省级", "publishedAt": "2026-05-20", "effectiveAt": "2026-06-01", "validityStatus": "有效", "researchStatus": "已形成成果", "researchCount": 1, "formedResultCount": 1, "conversionStatus": "待确认", "tags": ["清洁能源", "产业投资"], "summary": "围绕清洁能源项目建设、科技创新和专项资金申报提供支持措施。", "applicableScope": "符合条件的清洁能源产业项目及实施主体", "sourceUrlLabel": "政策原文（原型引用）", "attachments": ["关于支持清洁能源产业高质量发展的若干措施.pdf"], "researchResults": [], "impacts": [{ "objectType": "战略任务", "objectName": "加快重点产业项目落地", "impact": "补充清洁能源项目机会来源", "level": "高" }], "versions": [{ "version": "正式版", "publishedAt": "2026-05-20", "note": "当前有效政策原文" }], "audit": ["2026-07-18 政策研究岗形成影响分析", "2026-07-20 战略规划部提交转化确认"]
+    },
+    {
+      "id": "policy-002", "dataSource": "prototype-mock", "code": "ZC-2026-021", "title": "关于进一步优化国有资本布局的指导意见", "issuer": "市级主管部门", "policyLevel": "市级", "publishedAt": "2026-06-12", "effectiveAt": "2026-07-01", "validityStatus": "有效", "researchStatus": "待复核", "researchCount": 1, "formedResultCount": 0, "conversionStatus": "未转化", "tags": ["国有资本"], "summary": "国有资本布局优化政策。", "applicableScope": "市属国有企业", "sourceUrlLabel": "政策原文（原型引用）", "attachments": [], "researchResults": [], "impacts": [{ "objectType": "正式项目", "objectId": "dy-2026-008", "objectName": "全生命周期示范投资项目", "impact": "持续复核项目投资布局与国有资本优化方向的一致性（Demo）", "level": "中" }], "versions": [], "audit": []
+    }
+  ],
+  "researchResults": [
+    { "id": "research-001", "dataSource": "prototype-mock", "policyId": "policy-001", "title": "清洁能源产业支持政策影响分析", "conclusion": "政策窗口与集团产业投资方向匹配，建议形成项目机会并开展前置研判。", "keyClauses": "政策原文第六条：支持符合条件的清洁能源产业项目。", "applicableAnalysis": "适用于集团清洁能源产业投资及相关实施主体。", "industryImpact": "有利于扩大清洁能源装备产业机会来源。", "investmentBoundary": "仍须符合集团投资主业及投资决策制度。", "opportunities": ["清洁能源装备投资机会", "政策性资金申报机会"], "constraints": ["须符合投资主业范围", "正式立项前完成合规论证"], "risks": ["政策申报窗口和配套细则可能调整"], "recommendations": ["形成项目机会并开展前置研判"], "affectedObjects": "提升产业投资质量、加快重点产业项目落地", "recommendedDueDate": "2026-09-30", "evidence": ["政策原文第六条", "省级实施细则（2026）"], "owner": "政策研究岗", "status": "已形成成果", "updatedAt": "2026-07-18 17:40" },
+    { "id": "research-002", "dataSource": "prototype-mock", "policyId": "policy-002", "title": "国有资本布局政策影响分析", "conclusion": "建议复核集团现有投资布局与政策方向的一致性。", "keyClauses": "指导意见第三章：优化国有资本重点投向。", "applicableAnalysis": "适用于市属国有企业投资布局调整。", "industryImpact": "对产业投资方向和资本配置形成约束。", "investmentBoundary": "新增投资需说明与国有资本布局方向的一致性。", "opportunities": [], "constraints": ["投资方向需符合国有资本布局要求"], "risks": ["存量项目适配性需逐项复核"], "recommendations": ["形成存量项目政策一致性复核清单"], "affectedObjects": "全生命周期示范投资项目", "recommendedDueDate": "2026-10-31", "evidence": ["指导意见第三章"], "owner": "政策研究岗", "status": "待复核", "updatedAt": "2026-07-19 10:20" }
+  ],
+  "conversions": [
+    { "id": "conversion-001", "dataSource": "prototype-mock", "conversionCode": "ZH-2026-006", "policyId": "policy-001", "researchId": "research-001", "policyTitle": "关于支持清洁能源产业高质量发展的若干措施", "conversionType": "项目机会", "targetName": "清洁能源产业协同机会", "ownerOrganization": "战略规划部", "status": "待确认", "updatedAt": "2026-07-20 14:20", "sourceConclusion": "政策窗口与集团产业投资方向匹配，建议形成项目机会并开展前置研判。", "sourceResearchTitle": "清洁能源产业支持政策影响分析", "opportunityTarget": { "sourceOrganization": "省级主管部门", "investmentDirection": "产业投资", "ownerName": "政策研究岗", "discoveredOn": "2026-07-20" }, "fieldMappings": [{ "source": "政策标题", "target": "机会来源", "preview": "关于支持清洁能源产业高质量发展的若干措施" }, { "source": "机会摘要", "target": "项目机会名称", "preview": "清洁能源产业协同机会" }], "boundaryNotes": ["仅生成项目机会记录", "不生成正式项目", "不改变项目业务状态、生命周期、审批状态或风险状态"] }
+  ]
+}

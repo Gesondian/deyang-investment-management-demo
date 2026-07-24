@@ -1,0 +1,1 @@
+import{r as e}from"./dayjs.min-CWBFxOFX.js";import{Bn as t}from"./jsx-runtime-DFjPKkSg.js";var n=e(t(),1),r=(0,n.createContext)(null);function i(){let e=(0,n.useContext)(r);if(!e)throw Error(`DeyangRepositoriesProvider 未装配`);return e}export{i as n,r as t};
